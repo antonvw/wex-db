@@ -65,5 +65,6 @@ endif()
 install(FILES ${wex_own_LIBRARIES} DESTINATION "lib")
 
 if(ODBC_FOUND)
+  install(FILES ${CMAKE_SOURCE_DIR}/odbc.h DESTINATION ${wex_INCLUDE_DIR})
   install(FILES ${CMAKE_SOURCE_DIR}/otlv4.h DESTINATION "include")
 endif()
