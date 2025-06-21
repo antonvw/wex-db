@@ -11,7 +11,7 @@ wex-db contains a library that adds database connectivity to the wex library
 ## Building
 
 ```bash
-git clone git@gitlab.kitware.com:antonvw/dbquery.git
+git clone https://github.com/antonvw/wex-db.git
 
 wex-build-gen.sh
 ```
