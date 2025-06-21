@@ -15,3 +15,7 @@ git clone https://github.com/antonvw/wex-db.git
 
 wex-build-gen.sh
 ```
+
+## Uses
+
+- [OTL database lib](http://otl.sourceforge.net/)
